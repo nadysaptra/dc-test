@@ -13,3 +13,29 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+body {
+  @apply bg-slate-300;
+}
+
+.pagination {
+  @apply p-3 mt-1 flex rounded;
+}
+
+.pagination li {
+  @apply ml-1 rounded text-white bg-cyan-700;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.pagination li.selected {
+  @apply text-slate-500 bg-cyan-200;
+}
+
+.pagination li.disabled {
+  @apply bg-slate-300 text-slate-900;
+}
+
+.pure-modal .panel-heading {
+  @apply bg-cyan-700 text-white !important;
+}
