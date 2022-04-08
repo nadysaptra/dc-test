@@ -25,7 +25,7 @@ const Layout = () => {
           }
         >
           <div className={'p-4 flex flex-row items-center justify-between'}>
-            <Link to="/">Biro Perjalanan</Link>
+            <Link to="/">Tourism</Link>
             <button className={'md:hidden rounded-lg focus:outline-none focus:shadow-outline'}>
               <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
                 <path
